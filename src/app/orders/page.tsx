@@ -1,4 +1,5 @@
-import Sidebar from "@/components/Sidebar";
+
+
 import { getOrders } from "../../sanity/lib/orders"; // Import getOrders function
 import Link from "next/link";
 
@@ -16,9 +17,9 @@ const Orders = async () => {
 
   return (
     <div className="flex ">
-      <Sidebar />
+    
       <main className="flex-1 p-6 ml-64 md:mx-[50px]">
-        <h1 className="text-3xl font-bold mb-4 bg-cyan-50 hover:bg-cyan-300 items-center py-[20px] pl-[20px]">Orders</h1>
+        <h1 className="text-3xl font-bold mb-4 bg-cyan-50 hover:bg-cyan-300 items-center py-[20px] pl-[20px]">Orders Details</h1>
 
         <div className="bg-white p-4 rounded-lg shadow-lg cursor-pointer">
           <table className="w-full mt-4 border-collapse border ">
@@ -50,8 +51,9 @@ const Orders = async () => {
             </tbody>
           </table>
         </div>
+        <Link href="/">Go to Main Dashboard Page</Link>
       </main>
-      <Link href="/">Go to Main Dashboard Page</Link>
+     
     </div>
   );
 };
