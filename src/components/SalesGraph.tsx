@@ -55,7 +55,7 @@ const Dashboard = () => {
       </div>
       {/* Center and reduce the size of the pie chart */}
       <div className="mt-6 flex justify-center">
-        <div className="w-2/6"> {/* Adjust the width of the graph here */}
+        <div className="w-3/2"> {/* Adjust the width of the graph here */}
           <Pie data={data} />
         </div>
       </div>

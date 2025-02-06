@@ -2,3 +2,31 @@
 @tailwind components;
 @tailwind utilities;
 
+
+html {
+    scroll-behavior: smooth;
+   
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* html, body {
+    overflow-x: hidden;
+  } */
+  
+
+/* Remove horizontal scrollbar globally */
+/* html, body {
+    @apply overflow-x-hidden; 
+    margin: 0;               
+    padding: 0;              
+    width: 100%;              /
+  }
+  
+  * {
+    @apply box-border;       
+  } */
+  
